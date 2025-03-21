@@ -1,0 +1,24 @@
+# Block specific IP addresses
+<RequireAll>
+    Require all granted
+    Require not ip 192.168.1.100
+    Require not ip 203.0.113.5
+    Require not ip 198.51.100.23
+    # Add more IPs here or dynamically using PHP script
+</RequireAll>
+Deny from 136.28.178.243
+Deny from 8.220.136.125
+Deny from 175.176.24.145
+Deny from 8.212.167.55
+Deny from 38.54.86.20
+Deny from 103.56.4.230
+Deny from 103.56.7.254Deny from 103.56.7.90
+Deny from 136.158.60.217
+Deny from 8.220.150.88
+Deny from 103.56.5.124
+Deny from 49.146.35.35
+Deny from 110.54.158.170
+Deny from 194.26.75.172
+Deny from 91.194.160.81
+Deny from 120.89.61.91
+Deny from 120.29.79.85
